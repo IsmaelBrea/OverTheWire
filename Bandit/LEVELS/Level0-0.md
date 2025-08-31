@@ -17,9 +17,12 @@ Conectarse al servidor remoto por SSH y encontrar la contraseña para el siguien
 
 ```bash
 ssh -p 2220 bandit0@bandit.labs.overthewire.org
+```
+
 Nos conectamos al host de bandit0 en el puerto 2220
 
 CONSEJOS:
 Para ver todas las flags de un comando usar:
 man -comando
+
 ** Saber usa el comando SSH y man para saber que hace cada comando y que flags tiene**
