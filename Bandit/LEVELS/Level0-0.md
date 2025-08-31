@@ -5,7 +5,7 @@ Conectarse al servidor remoto por SSH y encontrar la contraseña para el siguien
 
 ---
 
-## 🔐 Credenciales
+## 🔐 Información de conexión
 
 - **Usuario:** `bandit0`
 - **Host:** `bandit.labs.overthewire.org`
@@ -27,6 +27,7 @@ Para ver todas las flags de un comando usar:
 man -comando
 
 **Saber usa el comando SSH y man para saber que hace cada comando y que flags tiene**
+
 
 
 
