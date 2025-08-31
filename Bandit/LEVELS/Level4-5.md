@@ -60,7 +60,7 @@ Obtendrás la contraseña para el siguiente nivel: 4oQYVPkxZOOEOO5pTW81FB8j8lxXG
 
    `cat <archivo>` — muestra el contenido de un archivo.
 
-    `reset` — reinicia la terminal si se rompe la vista.
+   `reset` — reinicia la terminal si se rompe la vista.
 
 ### CONSEJOS
 
@@ -72,5 +72,6 @@ Obtendrás la contraseña para el siguiente nivel: 4oQYVPkxZOOEOO5pTW81FB8j8lxXG
 
 
 **Saber usar ls, cd, cat y file (que sirve para identificar los tipos legibles de los archivos en un directorio)**
+
 
 
