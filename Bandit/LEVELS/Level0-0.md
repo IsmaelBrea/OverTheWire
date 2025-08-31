@@ -26,5 +26,6 @@ Para ver todas las flags de un comando usar:
 ```bass```
 man -comando
 
-** Saber usa el comando SSH y man para saber que hace cada comando y que flags tiene**
+**Saber usa el comando SSH y man para saber que hace cada comando y que flags tiene**
+
 
