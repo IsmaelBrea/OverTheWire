@@ -21,8 +21,10 @@ ssh -p 2220 bandit0@bandit.labs.overthewire.org
 
 Nos conectamos al host de bandit0 en el puerto 2220
 
-CONSEJOS:
+### CONSEJOS:
 Para ver todas las flags de un comando usar:
+```bass```
 man -comando
 
 ** Saber usa el comando SSH y man para saber que hace cada comando y que flags tiene**
+
