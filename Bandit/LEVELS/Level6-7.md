@@ -66,10 +66,15 @@ cat /var/lib/dpkg/info/bandit7.password
 ## Comandos útiles
 
 `ls` — lista archivos en un directorio
+
 `cd <directorio>` — cambiar de carpeta
+
 `cat <archivo>` — mostrar contenido de un archivo
+
 `file <archivo>` — ver tipo de archivo
+
 `find / -user <usuario> -group <grupo> -size <tamaño>` — buscar archivos según propietario, grupo y tamaño
+
  `grep` — filtrar salidas por patrones de texto
 
 
@@ -79,4 +84,5 @@ cat /var/lib/dpkg/info/bandit7.password
      Combina `find` con `-size` si necesitas archivos de un tamaño específico.
      
      La contraseña suele estar en un archivo pequeño y legible.
+
 
