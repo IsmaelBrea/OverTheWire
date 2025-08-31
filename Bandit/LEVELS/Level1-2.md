@@ -50,15 +50,15 @@ Luego conéctate al siguiente nivel:
 ssh -p 2220 bandit2@bandit.labs.overthewire.org
 ```
 
-Comandos útiles para este nivel
+## Comandos útiles
 
-    ls — Lista los archivos en el directorio actual
+ `ls ` — Lista los archivos en el directorio actual
 
-    cat — Muestra el contenido de un archivo
+ `cat` — Muestra el contenido de un archivo
 
-    ssh — Conexión remota al servidor
+ `ssh ` — Conexión remota al servidor
 
-    exit — Salir de la sesión SSH actual
+ `exit ` — Salir de la sesión SSH actual
 
 ### CONSEJOS
 
@@ -71,4 +71,5 @@ Comandos útiles para este nivel
 
 
     **Saber usar los comandos ls, cd, cat y saber que se usa ./ para evitar confusiones en los nombres cuando empiezan por - ya que se entienden que son flags al empezar por -**
+
 
