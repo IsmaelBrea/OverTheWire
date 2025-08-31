@@ -3,6 +3,7 @@
 ## 🎯 Objetivo:
 Encontrar el único archivo **legible por humanos** dentro del directorio `inhere` y obtener la contraseña.
 
+---
 ## Información de conexión
 - **Usuario:** `bandit4`  
 - **Host:** `bandit.labs.overthewire.org`  
@@ -11,21 +12,24 @@ Encontrar el único archivo **legible por humanos** dentro del directorio `inher
 
 ## Pasos para resolverlo
 1. Entra en el directorio:
-   ```bash
-   cd inhere
-
-    Lista los archivos:
-
+```bash
+cd inhere
+```
+   
+Lista los archivos:
+```bash
 ls
+```
 
 Usa file para identificar cuál es legible:
-
+```bash
 file ./*
+```
+   
+Los archivos binarios aparecerán como data u otros tipos.
 
-    Los archivos binarios aparecerán como data u otros tipos.
-
-    El único que diga ASCII text es el correcto.
-
+El único que diga ASCII text es el correcto.
+```bash
 ./-file00: Non-ISO extended-ASCII text, with no line terminators, with overstriking
 ./-file01: data
 ./-file02: data
@@ -36,15 +40,17 @@ file ./*
 ./-file07: ASCII text
 ./-file08: data
 ./-file09: data
-
+```
 
 Lee el archivo con:
-
+```bash
     cat ./-file07
+```
+   
+Obtendrás la contraseña para el siguiente nivel: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
-    Obtendrás la contraseña para el siguiente nivel: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
-Comandos útiles
+Comandos útiles:
 
     ls — lista archivos.
 
@@ -56,12 +62,13 @@ Comandos útiles
 
     reset — reinicia la terminal si se rompe la vista.
 
-CONSEJOS
+### CONSEJOS
 
     ./* se usa porque los archivos empiezan con -, y así evitas que se interpreten como opciones.
 
     Solo uno de los archivos es texto legible, el resto son datos binarios.
 
     Guarda la contraseña para el siguiente nivel.
+
 
     **Saber usar ls, cd, cat y file (que sirve para identificar los tipos legibles de los archivos en un directorio)**
