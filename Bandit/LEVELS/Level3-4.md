@@ -16,22 +16,22 @@ El archivo tiene un nombre que comienza con puntos (`...`) y no aparece con un l
 1. Lista todos los archivos, incluidos los ocultos, con el comando:
 
 ```bash
-   ls -a
- ```
+ls -a
+```
 
  . (punto simple) representa el directorio actual donde estás ubicado.
 .. (punto doble) representa el directorio padre o superior, es decir, el directorio que contiene al actual.
 
 Verás archivos o carpetas especiales, como ...Hiding-From-You.
 
-    Para leer el contenido de ese archivo, usa:
+ Para leer el contenido de ese archivo, usa:
  ```bash
     cat ...Hiding-From-You
  ```
 
-    El contenido del archivo contiene la contraseña para el siguiente nivel: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+ El contenido del archivo contiene la contraseña para el siguiente nivel: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
-    Guárdala para usarla luego.
+Guárdala para usarla luego.
 
 Comandos útiles
 
@@ -61,3 +61,4 @@ Comandos útiles
 
 
     **Saber usar ls, cd y cat y entender como localizar ficheros ocultos en un directorio**
+
