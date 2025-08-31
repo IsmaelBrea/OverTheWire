@@ -34,13 +34,13 @@ Verás archivos o carpetas especiales, como ...Hiding-From-You.
 Guárdala para usarla luego.
 
 
-Comandos útiles:
+## Comandos útiles:
 
-    ls -a — Lista todos los archivos, incluyendo los ocultos (los que empiezan con .).
+   `ls -a ` — Lista todos los archivos, incluyendo los ocultos (los que empiezan con .).
 
-    cat <archivo> — Muestra el contenido de un archivo.
+   `cat <archivo> ` — Muestra el contenido de un archivo.
 
-    exit (Ctl+D o Ctl+C) — Salir de la sesión SSH
+   `exit (Ctl+D o Ctl+C)` — Salir de la sesión SSH
 
     **Flags basicas de ls (para conocer todo usar man -ls):
     Las letras vienen de palabras descriptivas en inglés:
@@ -61,5 +61,6 @@ Comandos útiles:
     Guarda las contraseñas que encuentres para no perder progreso.
 
 **Saber usar ls, cd y cat y entender como localizar ficheros ocultos en un directorio**
+
 
 
