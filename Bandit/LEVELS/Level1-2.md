@@ -4,6 +4,7 @@
 ## 🎯 Objetivo:
 En este nivel, debes encontrar la contraseña del siguiente nivel dentro de un archivo especial llamado `-`, que se encuentra en el directorio personal (`home`) del usuario.
 
+---
 ## Información de conexión
 
 - **Usuario:** `bandit1`  
@@ -61,6 +62,7 @@ CONSEJOS
     El nombre - se interpreta como entrada estándar, por eso usamos ./- para evitar confusión.
 
     Siempre usa el puerto 2220 al conectarte con SSH.
+
 
 
     **Saber usar los comandos ls, cd, cat y saber que se usa ./ para evitar confusiones en los nombres cuando empiezan por - ya que se entienden que son flags al empezar por -**
