@@ -33,7 +33,8 @@ Verás archivos o carpetas especiales, como ...Hiding-From-You.
 
 Guárdala para usarla luego.
 
-Comandos útiles
+
+Comandos útiles:
 
     ls -a — Lista todos los archivos, incluyendo los ocultos (los que empiezan con .).
 
@@ -59,6 +60,6 @@ Comandos útiles
 
     Guarda las contraseñas que encuentres para no perder progreso.
 
+**Saber usar ls, cd y cat y entender como localizar ficheros ocultos en un directorio**
 
-    **Saber usar ls, cd y cat y entender como localizar ficheros ocultos en un directorio**
 
