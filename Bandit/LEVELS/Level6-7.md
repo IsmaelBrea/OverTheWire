@@ -10,6 +10,7 @@ En este nivel, debes encontrar un archivo en el servidor que cumpla las siguient
 
 Este archivo contiene la contraseña para el siguiente nivel.
 
+---
 ## Información de conexión
 
 * **Usuario:** `bandit6`
@@ -20,44 +21,43 @@ Este archivo contiene la contraseña para el siguiente nivel.
 ## Pasos para resolverlo
 
 1️. Lista los archivos de tu directorio
-
+```bash
 ls -la
-
+```
 
 Salida típica:
-
-
+```bash
 total 20
 drwxr-xr-x   2 root root 4096 Aug 15 13:15 .
 drwxr-xr-x 150 root root 4096 Aug 15 13:18 ..
 -rw-r--r--   1 root root  220 Mar 31  2024 .bash_logout
 -rw-r--r--   1 root root 3851 Aug 15 13:09 .bashrc
 -rw-r--r--   1 root root  807 Mar 31  2024 .profile
-
+```
 
 No verás la contraseña aquí, ya que está en otra parte del sistema.
 
 2️. Buscar archivos por propietario y grupo
-
+```bash
 find / -user bandit7 -group bandit6 2>/dev/null
-
+```
 find / → busca desde la raíz del sistema (todas las carpetas).
 
--user bandit7 → solo archivos propiedad del usuario bandit7.
-
--group bandit6 → solo archivos cuyo grupo es bandit6.
-
-2>/dev/null → oculta los errores de “permiso denegado”.
+  -user bandit7 → solo archivos propiedad del usuario bandit7.
+  
+  -group bandit6 → solo archivos cuyo grupo es bandit6.
+  
+  2>/dev/null → oculta los errores de “permiso denegado”.
 
 Salida esperada:
-
+```bash
 /var/lib/dpkg/info/bandit7.password
-
+```
 
 3️. Mostrar el contenido del archivo para obtener la contraseña
-
+```bash
 cat /var/lib/dpkg/info/bandit7.password
-
+```
 
  Obtendrás la contraseña para el siguiente nivel: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
@@ -73,7 +73,10 @@ cat /var/lib/dpkg/info/bandit7.password
  `grep` — filtrar salidas por patrones de texto
 
 
-CONSEJOS
-Siempre filtra los errores de permisos con `2>/dev/null`.
-Combina `find` con `-size` si necesitas archivos de un tamaño específico.
-La contraseña suele estar en un archivo pequeño y legible.
+### CONSEJOS
+     Siempre filtra los errores de permisos con `2>/dev/null`.
+     
+     Combina `find` con `-size` si necesitas archivos de un tamaño específico.
+     
+     La contraseña suele estar en un archivo pequeño y legible.
+
