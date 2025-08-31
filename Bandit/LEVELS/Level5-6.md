@@ -11,6 +11,7 @@ En este nivel, debes encontrar y leer un archivo dentro del directorio `inhere` 
 
 Este archivo contiene la contraseña para el siguiente nivel.
 
+---
 ## Información de conexión
 
 * **Usuario:** `bandit5`
@@ -21,12 +22,14 @@ Este archivo contiene la contraseña para el siguiente nivel.
 ## Pasos para resolverlo
 
 1. Accede al directorio `inhere`
+```bash
 cd inhere
+```
 
 2. Busca archivos por tamaño exacto
-
+```bash
 find . -type f -size 1033c
-
+```
 
 -`.` → buscar desde el directorio actual
 -`-type f` → solo archivos normales
@@ -38,25 +41,25 @@ Esto debería devolver algo como:
 
 
 3. Comprueba si el archivo es legible por humanos
-
+```bash
 file ./maybehere07/.file2
-
+```
 
 Salida esperada:
-
+```bash
 ./maybehere07/.file2: ASCII text, with very long lines (1000)
+```
 
  `ASCII text` indica que es **human-readable**, por lo que este es el archivo correcto.
 
 4. Muestra el contenido del archivo para obtener la contraseña
-
+```bash
 cat ./maybehere07/.file2
-
+```
 
  Obtendrás la contraseña para el siguiente nivel: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 
-* Esta es la **contraseña del Level 6**. Guárdala para conectarte al siguiente nivel.
 
 ## Comandos útiles
 
@@ -90,32 +93,42 @@ man find
 Ejemplos simples
 
 1. Buscar todos los archivos en el directorio actual:
+```bash
 find .     #Empieza la búsqueda de archivos en el directorio actual
+```
 
 2. Buscar archivos por nombre (-name):
+```bash
 find . -name "archivo.txt"   # Busca exactamente este archivo
 find . -name "*.txt"         # Busca todos los .txt
+```
 
 3. Buscar solo archivos o solo carpetas (-type):
+```bash
 find . -type f   # solo archivos
 find . -type d   # solo directorios
+```
 
 4. Buscar por tamaño (-size):
+```bash
 find . -size 33c
+```
 
 5. Combinar file con distintas flags:
+```bash
 find . -type f -exec file {} \; | grep "ASCII"
-
 -type f: limita la búsqueda solo a archivos (no carpetas).
 -exec file {} \;:
-    exec para ejecutar un comando sobre cada archivo encontrado.
+```
+ exec para ejecutar un comando sobre cada archivo encontrado.
 
     file {} -> ejecuta file sobre cada archivo ({} representa el archivo actual).
 
     \; → marca el final del comando para -exec.
 
--| grep "ASCII"
+    -| grep "ASCII"
 
     | → tubería, pasa la salida del comando anterior al siguiente.
+
 
     grep "ASCII" → filtra solo las líneas que contengan la palabra "ASCII" (es decir, archivos legibles por humanos).
