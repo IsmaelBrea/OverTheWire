@@ -1,5 +1,6 @@
 # Bandit Level 0 → Level 1
 
+## 🎯 Objetivo:
 En este nivel, debes conectarte al servidor remoto usando SSH y encontrar la contraseña del siguiente nivel.  
 La contraseña está guardada en un archivo llamado `readme` ubicado en el directorio home del usuario.
 
@@ -50,3 +51,4 @@ Comandos útiles para este nivel
 
 
     Cada nivel se resuelve usando la contraseña del anterior y conectándote con SSH en el puerto 2220.
+
