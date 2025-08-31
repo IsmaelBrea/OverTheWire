@@ -51,7 +51,8 @@ Luego conéctate al siguiente nivel:
     ssh -p 2220 bandit3@bandit.labs.overthewire.org
  ```
 
-Comandos útiles para este nivel
+
+Comandos útiles para este nivel:
 
     ls — Lista archivos
 
@@ -70,6 +71,7 @@ Comandos útiles para este nivel
     Recuerda siempre usar el puerto 2220 al usar SSH.
 
     **Usar comillas ("") para leer un archivo que empieza por --**
+
 
 
 
