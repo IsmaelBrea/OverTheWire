@@ -52,15 +52,15 @@ Luego conéctate al siguiente nivel:
  ```
 
 
-Comandos útiles para este nivel:
+## Comandos útiles
 
-    ls — Lista archivos
+ `ls`— Lista archivos
 
-    cat — Muestra el contenido de un archivo
+  `cat ` — Muestra el contenido de un archivo
 
-    ssh — Conexión remota
+   `ssh ` — Conexión remota
 
-    exit (Ctl+D o Ctl+C) — Salir de la sesión SSH
+   `exit` (Ctl+D o Ctl+C) — Salir de la sesión SSH
 
 ### CONSEJOS
 
@@ -71,6 +71,7 @@ Comandos útiles para este nivel:
     Recuerda siempre usar el puerto 2220 al usar SSH.
 
     **Usar comillas ("") para leer un archivo que empieza por --**
+
 
 
 
