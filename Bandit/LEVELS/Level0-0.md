@@ -10,7 +10,7 @@ Conectarse al servidor remoto por SSH y encontrar la contraseña para el siguien
 - **Usuario:** `bandit0`
 - **Host:** `bandit.labs.overthewire.org`
 - **Puerto:** `2220`
-- **Contraseña siguinet nivel:** `bandit0`
+- **Contraseña siguiente nivel:** `bandit0`
 ---
 
 ## 📡 Comando de conexión SSH
@@ -27,6 +27,7 @@ Para ver todas las flags de un comando usar:
 man -comando
 
 **Saber usa el comando SSH y man para saber que hace cada comando y que flags tiene**
+
 
 
 
