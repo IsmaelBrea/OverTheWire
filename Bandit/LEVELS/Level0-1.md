@@ -35,7 +35,7 @@ exit
 ssh -p 2220 bandit1@bandit.labs.overthewire.org
 ```
 
-Comandos útiles para este nivel
+## Comandos útiles
 
 `ls` — Listar archivos en el directorio actual
 
@@ -53,6 +53,7 @@ Comandos útiles para este nivel
 
 
     Cada nivel se resuelve usando la contraseña del anterior y conectándote con SSH en el puerto 2220.
+
 
 
 
