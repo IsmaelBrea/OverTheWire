@@ -74,7 +74,7 @@ cat ./maybehere07/.file2
 `find . -type f -size <tamaño>` — Busca archivos por tamaño
 
 
-CONSEJOS
+### CONSEJOS
 
 Verifica siempre el tipo de archivo con `file` antes de leerlo, para asegurarte de que es legible.
 
@@ -132,3 +132,4 @@ find . -type f -exec file {} \; | grep "ASCII"
 
 
     grep "ASCII" → filtra solo las líneas que contengan la palabra "ASCII" (es decir, archivos legibles por humanos).
+
