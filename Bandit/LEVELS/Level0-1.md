@@ -37,13 +37,13 @@ ssh -p 2220 bandit1@bandit.labs.overthewire.org
 
 Comandos útiles para este nivel
 
-    ls — Listar archivos en el directorio actual
+`ls` — Listar archivos en el directorio actual
 
-    cat — Mostrar contenido de un archivo
+`cat` — Mostrar contenido de un archivo
 
-    ssh — Conectarse a un servidor remoto usando Secure Shell
+`ssh` — Conectarse a un servidor remoto usando Secure Shell
     
-    exit — Salir de la sesión ssh actual
+`exit` — Salir de la sesión ssh actual
 
 ### CONSEJOS
 
@@ -53,5 +53,6 @@ Comandos útiles para este nivel
 
 
     Cada nivel se resuelve usando la contraseña del anterior y conectándote con SSH en el puerto 2220.
+
 
 
