@@ -52,15 +52,15 @@ Obtendrás la contraseña para el siguiente nivel: 4oQYVPkxZOOEOO5pTW81FB8j8lxXG
 
 Comandos útiles:
 
-    ls — lista archivos.
+ `ls ` — lista archivos.
 
-    cd <dir> — cambia de directorio.
+ `cd <dir>` — cambia de directorio.
 
-    file <archivo> — muestra el tipo de archivo.
+   `file <archivo>` — muestra el tipo de archivo.
 
-    cat <archivo> — muestra el contenido de un archivo.
+   `cat <archivo>` — muestra el contenido de un archivo.
 
-    reset — reinicia la terminal si se rompe la vista.
+    `reset` — reinicia la terminal si se rompe la vista.
 
 ### CONSEJOS
 
@@ -71,4 +71,5 @@ Comandos útiles:
     Guarda la contraseña para el siguiente nivel.
 
 
-    **Saber usar ls, cd, cat y file (que sirve para identificar los tipos legibles de los archivos en un directorio)**
+**Saber usar ls, cd, cat y file (que sirve para identificar los tipos legibles de los archivos en un directorio)**
+
