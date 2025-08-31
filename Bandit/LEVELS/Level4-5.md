@@ -50,7 +50,7 @@ Lee el archivo con:
 Obtendrás la contraseña para el siguiente nivel: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 
-Comandos útiles:
+## Comandos útiles:
 
  `ls ` — lista archivos.
 
@@ -72,4 +72,5 @@ Comandos útiles:
 
 
 **Saber usar ls, cd, cat y file (que sirve para identificar los tipos legibles de los archivos en un directorio)**
+
 
