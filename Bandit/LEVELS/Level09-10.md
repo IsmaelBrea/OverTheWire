@@ -85,9 +85,10 @@ Esta es la contraseña para el siguiente nivel: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 
 ### CONSEJOS
-     -No abrir el archivo con cat
+   -No abrir el archivo con cat
 
-    -Extraer texto legible con strings
+   -Extraer texto legible con strings
 
-    -Filtrar con grep
+   -Filtrar con grep
+
 
